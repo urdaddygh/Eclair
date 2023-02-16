@@ -231,8 +231,12 @@ font-size: 25px;
 line-height: 29px;
 justify-content: center;
 }
+.data_birth input{
+    /* margin-left:180px; */
+    font-size: 25px;
+}
 .data_birth p{
-    margin-right: 40px;
+    margin-right: 120px;
 }
 .delete_button{
     background: #26ABE2;
