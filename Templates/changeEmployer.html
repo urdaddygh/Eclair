@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangeEmployer</title>
+    <link rel="stylesheet" href="../Static/css/changeEmployer.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header_container">
+                <img src="../Static/Images/Logo.png" alt="logo" width="155px" height="158px" class="header_logo__img">
+                <div class="header_menu">
+                    <a href="" class="header_menu__link Home ">Home</a>
+                    <a href="" class="header_menu__link Dashboard ">Dashboard</a>
+                    <a href="" class="header_menu__link Take_vacation">Take vacation</a>
+                    <a href="" class="header_menu__link Documents ">Documents</a>
+                </div>
+
+                <img src="../Static/Images/profile.png" alt="profile" width="94px" height="94px"
+                    class="header_profile__img">
+                <div class="dropdown">
+                    <div class="dropdown_head">
+                        <img src="../Static/Images/profile.png" alt="profile" width="94px" height="94px"
+                            class="header_profile__img">
+                        <span>
+                            <p>Kondrat O.</p>
+                            <p style="font-weight: 200; text-align: left;">#9965</p>
+                        </span>
+                    </div>
+                    <div class="dropdown_list">
+                        <img src="../Static/Images/calendar.png" alt="">
+                        <a href="">Vacations calendar</a>
+                    </div>
+                    <div class="dropdown_list">
+                        <img src="../Static/Images/request.png" alt="">
+                        <a href="">Vacation requests</a>
+                    </div>
+                    <div class="dropdown_list">
+                        <img src="../Static/Images/question.png" alt="">
+                        <a href="">How to use?</a>
+                    </div>
+                    <div class="dropdown_list">
+                        <img src="../Static/Images/logout.png" alt="">
+                        <a href="">Log out</a>
+                    </div>
+                </div>
+
+                <!-- Login -->
+                <!-- <p class="Login">Log in</p> -->
+            </div>
+        </header>
+
+        <section class="first_section">
+            <div class="title_wrapper">
+                <img src="../Static/Images/arrow.png" alt="">
+                <p>update employee</p>
+            </div>
+        </section>
+
+        <section class="second_section"> 
+        <div class="upper_cont">
+            <div class="cont">
+                <p>Employee ID:</p>
+                <input type="text">
+            </div>
+            <div class="cont"> 
+                <p>Full Name:</p>
+                <input type="text">
+            </div>
+            <div class="cont">
+                <p>Email :</p>
+                <input type="text">
+            </div>
+            <div class="cont">
+                <p>Phone:</p>
+                <input type="text">
+            </div>
+        </div>
+            <div class="data_birth">
+                <p style="margin-right: 100px;">Date Of Birth:</p>
+                <p>DD</p>
+                <p>|</p>
+                <p> MM</p>
+                <p>|</p>
+                <p>YY</p>
+            </div>
+
+            <div style="margin:35px 0 0 230px;">
+                <button class="delete_button">Delete employee</button>
+                <button class="apply_button">Apply</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
