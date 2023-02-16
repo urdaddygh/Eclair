@@ -207,9 +207,11 @@ line-height: 38px;
 }
 .data{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
-    padding: 0 190px 0 140px;
+    /* padding: 0 220px 0 60px; */
+    align-items: center;
+    text-align: center;
 }
 .data_from{
     display: flex;
@@ -223,8 +225,15 @@ line-height: 29px;
 font-size: 25px;
 line-height: 29px;
 }
-.data p {
+.data input{
+    font-size: 25px;
+    font-weight: 400;
+    margin:0 190px 0 0;
+}
+.data p{
     margin-right: 40px;
+    align-items: center;
+    margin-top: 4px;
 }
 .second_section{
     margin-top: 53px;

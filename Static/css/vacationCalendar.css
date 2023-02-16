@@ -188,6 +188,7 @@ font-weight: 400;
 font-size: 45px;
 line-height: 59px;
 color: #26ABE2;
+margin-left: 60px;
 }
 
   *,
@@ -230,9 +231,10 @@ color: #26ABE2;
     vertical-align: middle;
     /* border-right: 1px solid #dcdcff;
     border-top: 1px solid #dcdcff; */
-    width: 17.28571429%;
+    /* width: 17.28571429%; */
     font-size: 30px;
-    text-align: left;
+    /* text-align: left; */
+    /* border-radius: 25px; */
   }
   td.not-current {
     color: #c0c0c0;
@@ -361,4 +363,13 @@ display: flex;
     height: 50px;
     margin: 0 0px 0 10px;
 
+  }
+
+  .planned_orange{
+    background-color: #F2851F;
+    color: white;
+  }
+  .planned_green{
+    background-color: #25FF21;;
+    color: white;
   }

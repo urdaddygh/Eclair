@@ -223,16 +223,22 @@ margin-right: 23px;
     border-radius: 15px;
     width: 396px;
     height: 48px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 400px;
 }
 .data_birth{
     display: flex;
     font-weight: 400;
 font-size: 25px;
 line-height: 29px;
-justify-content: center;
+/* justify-content: center; */
+margin: 0 auto;
+width: 566px;
 }
-.data_birth p{
-    margin-right: 40px;
+.data_birth input{
+    margin-left: 50px;
+    font-size: 25px;
 }
 
 .apply_button{

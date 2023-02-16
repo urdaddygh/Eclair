@@ -189,6 +189,10 @@ do {
   var chkM = chk.getMonth();
   if (chkY == this.currYear && chkM == this.currMonth && i == this.currDay) {
     html += '<td class="today">' + i + '</td>';
+  } else if(i==2 || i==3|| i==4){
+    html += '<td class="planned_green">' + i + '</td>';
+  } else if(i==6 || i==7|| i==8){
+    html += '<td class="planned_orange">' + i + '</td>';
   } else {
     html += '<td class="normal">' + i + '</td>';
   }
