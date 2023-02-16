@@ -223,6 +223,9 @@ margin-right: 23px;
     border-radius: 15px;
     width: 396px;
     height: 48px;
+    font-size: 25px;
+    padding: 10px;
+
 }
 .data_birth{
     display: flex;
