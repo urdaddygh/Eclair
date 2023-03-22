@@ -22,68 +22,85 @@
     src: url('../fonts/Roboto-Thin.ttf');
     font-weight: 200;
 }
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     border: none;
     font-family: 'Roboto';
-}
+} */
 
 .container_info{
-    width: 1026px;
-    height:800px;
-    margin: 50px auto;
-    padding: 50px 0;
-    border-radius: 25px;
     box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.25);
     position: fixed;
     top: 0;
-    left: 20%;
-    z-index: 99;
-    background-color: white;
+    left: 0;
+    width: 100%;
+    height:100vh;
+    background-color: rgba(0,0,0,.3);
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
-.header{
+.cont_active{
+    opacity: 1;
+    visibility: visible;
+    pointer-events:all;
+    z-index: 99;
+}
+.wrapper{
+    border-radius: 25px;
+    max-width: 1000px;
+    padding: 50px 50px 50px 0;
+    z-index: 1;
+    background-color: white;
+    margin: 30px 0 0 30px;
+}
+.wrapper .header{
 display: flex;
 align-items: center;
 text-align: center;
 justify-content: space-between;
 padding: 0 55px;
 }
-.header img{
+.wrapper .header img{
     display: flex;
     width: 37px;
     height: 37px;
 }
-.header p{
+.wrapper .header p{
 font-weight: 400;
 font-size: 50px;
 line-height: 66px;
 color: #26ABE2;
 font-family: 'Malatestian'
 }
-.info{
+.wrapper .info{
     margin: 30px 0 0 70px;
 }
-.info p{
+.wrapper .info p{
     font-size: 32px;
 line-height: 38px;
 width: 170px;
 text-align: right;
 margin-right: 23px;
 }
-.info div{
+.wrapper .info div{
     display: flex;
     margin-bottom: 30px;
 
 }
-.info strong{
+.wrapper .info strong{
     font-weight: 500;
 font-size: 32px;
 line-height: 38px;
 }
-.green{
+.wrapper .green{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -94,7 +111,7 @@ line-height: 38px;
     justify-content: center;
     margin: 5px 0 0 15px;
 }
-.orange{
+.wrapper .orange{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -105,7 +122,7 @@ line-height: 38px;
     justify-content: center;
     margin: 5px 0 0 15px;
 }
-.info textarea{
+.wrapper .info textarea{
     border: 2px solid #000000;
 border-radius: 15px;
 width: 637px;
@@ -116,7 +133,7 @@ font-size: 20px;
 line-height: 23px;
 padding: 12px 20px;
 }
-.btn_close{
+.wrapper .btn_close{
     background: #26ABE2;
 border-radius: 29px;
 width: 160px;
@@ -126,11 +143,11 @@ font-weight: 600;
 font-size: 25px;
 line-height: 29px;
 }
-.button_close{
+.wrapper .button_close{
     text-align: right;
     margin-right: 125px;
 }
-.btn_decline{
+.wrapper .btn_decline{
     border: 2px solid #26ABE2;
 border-radius: 29px;
 background: #FFFFFF;
@@ -143,7 +160,7 @@ line-height: 23px;
 color: #26ABE2;
 margin: 0 27px 0 0;
 }
-.btn_accept{
+.wrapper .btn_accept{
     border-radius: 29px;
     width: 160px;
 height: 50px;

@@ -8,6 +8,6 @@ dropIcon.addEventListener('click', function(e){
 let select = document.querySelector('.select');
 let sort = document.querySelector('.sort');
 
-select.addEventListener('click', function(e){
+select.addEventListener('click', function(){
     sort.classList.toggle('sort_active')
 })
