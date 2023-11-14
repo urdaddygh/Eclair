@@ -36,7 +36,7 @@
 header {
     background-color: #26ABE2;
     border-radius: 0px 0px 25px 25px;
-
+    position: relative;
 }
 
 .header_menu {
